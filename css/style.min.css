@@ -1,0 +1,15 @@
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,body{},html{height:100%},
+h3{
+  font-family: 'Sansita';
+  font-size: 16px;
+}
+
+p{
+    font-family: 'Sansita';
+    font-size: 16px;
+}
+.navbar{background-color:rgba(0,0,0,.2)}
+.page-footer,
+.top-nav-collapse{background-color:#0b7037}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}

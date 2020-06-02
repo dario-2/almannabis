@@ -1,0 +1,52 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+h3{
+  font-family: 'Sansita';
+  font-size: 16px;
+}
+
+#ramas{
+   position: relative;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+p{
+  font-family: 'Sansita';
+  font-size: 16px;
+  text-justify: auto;
+}
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1c6348; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1c633d; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1c633d; }
